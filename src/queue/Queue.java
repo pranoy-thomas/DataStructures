@@ -1,4 +1,4 @@
-// Java program for array implementation of queue
+package queue;// Java program for array implementation of queue
 
 // A class to represent a queue
 public class Queue {
@@ -14,13 +14,13 @@ public class Queue {
 
     }
 
-    // Queue is full when size becomes equal to
+    // queue.Queue is full when size becomes equal to
     // the capacity
     boolean isFull(Queue queue) {
         return (queue.size == queue.capacity);
     }
 
-    // Queue is empty when size is 0
+    // queue.Queue is empty when size is 0
     boolean isEmpty(Queue queue) {
         return (queue.size == 0);
     }
@@ -81,7 +81,7 @@ public class Queue {
 
         System.out.println(queue.dequeue() + " dequeued from queue\n");
 
-        System.out.println("Queue: ");
+        System.out.println("queue.Queue: ");
         queue.printQueue();
 
         System.out.println("\nFront item is " + queue.front());
