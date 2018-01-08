@@ -1,1 +1,1 @@
-# SimpleStackOperations
+# Data structures implementations
