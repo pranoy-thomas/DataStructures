@@ -1,3 +1,5 @@
+package stack;
+
 // Java program to implement two stacks in a single array
 class TwoStacks
 {
@@ -20,7 +22,7 @@ class TwoStacks
             arr[++top1] = x;
         }
         else {
-            System.out.println("Stack Overflow");
+            System.out.println("stack.Stack Overflow");
             System.exit(1);
         }
     }
@@ -32,7 +34,7 @@ class TwoStacks
             arr[--top2] = x;
         }
         else {
-            System.out.println("Stack Overflow");
+            System.out.println("stack.Stack Overflow");
             System.exit(1);
         }
     }
@@ -44,7 +46,7 @@ class TwoStacks
             return x;
         }
         else {
-            System.out.println("Stack Underflow");
+            System.out.println("stack.Stack Underflow");
             System.exit(1);
         }
         return 0;
@@ -57,7 +59,7 @@ class TwoStacks
             return x;
         }
         else {
-            System.out.println("Stack Underflow");
+            System.out.println("stack.Stack Underflow");
             System.exit(1);
         }
         return 0;

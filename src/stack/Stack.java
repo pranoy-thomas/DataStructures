@@ -1,3 +1,5 @@
+package stack;
+
 /**
  * @Author : Pranoy Thomas
  */
@@ -20,7 +22,7 @@ public class Stack {
         // check overflow
         if ( top > MAX )    {
 
-            System.out.println("Stack Overflow");
+            System.out.println("stack.Stack Overflow");
         }
         else    {
 
@@ -33,7 +35,7 @@ public class Stack {
         //check Underflow
         if ( top < MIN )    {
 
-            System.out.println("Stack Underflow");
+            System.out.println("stack.Stack Underflow");
             return null;
         }
         else    {
