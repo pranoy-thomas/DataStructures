@@ -6,7 +6,6 @@ public class Stack {
     private Integer top;
     private static Integer MAX;
     private static Integer MIN;
-    //private Integer stack[] = new Integer[Max];
     private Integer stack[];
 
     Stack() {
