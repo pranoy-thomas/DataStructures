@@ -56,6 +56,17 @@ class QueueLL {
             this.rear = null;
         return temp;
     }
+
+    void printQueue()    {
+
+        QNode temp = front;
+        System.out.println("printing Q...");
+        while(temp!=null) {
+            System.out.println(temp.key);
+            temp = temp.next;
+        }
+        System.out.println("printing Q finished");
+    }
 }
 
 public class QueueUsingLL {
@@ -64,12 +75,15 @@ public class QueueUsingLL {
         QueueLL q = new QueueLL();
         q.enqueue(10);
         q.enqueue(20);
+        q.printQueue();
         q.dequeue();
+        q.printQueue();
         q.dequeue();
         q.enqueue(30);
         q.enqueue(40);
         q.enqueue(50);
-
+        q.printQueue();
         System.out.println("Dequeued item is " + q.dequeue().key);
+        q.printQueue();
     }
 }
